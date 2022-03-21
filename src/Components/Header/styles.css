@@ -1,0 +1,62 @@
+header {
+  background-image: linear-gradient(to right, #574ae8, #3ea1db);
+  width: 100%;
+  height: 250px;
+  padding: 0px 12rem;
+}
+
+.icon {
+  padding-right: 17px;
+}
+
+.containerTitles {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 20px;
+}
+
+.inputSearch {
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+.inputSearch input {
+  width: 100%;
+  height: 55px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+    height: 15rem;
+    padding: 1rem;
+  }
+
+  .containerTitles {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .inputSearch {
+    margin-top: 1.2rem;
+  }
+}
